@@ -16,11 +16,6 @@ body{
     background-image: url(../img/imagem-fundo.png);
 }
 
-img{
-    max-width: 100%;
-    display: block;
-}
-
 h1{
     text-align: center;
     color: #f5f5f5;
@@ -28,44 +23,44 @@ h1{
 
 /* HEADER */
 
-body, ul, li, p{
-    font-size: 1.2rem;
-    list-style: none;
-}
-
-a{
-    text-decoration: none;
-    color: #f5f5f5;
-    cursor: pointer;
-}
-
 header{
+    background-color: #0c0c0c;
+}
+
+header .navbar{
     display: flex;
-    width: 100%;
-    background-color: #1d1e20;
-    justify-content: space-between;
-    padding: 10px;
+    width: 95%;
     align-items: center;
-    flex-wrap: wrap;
-}
-
-header #logo{
-    height: 10vh;
-}
-
-header .menu{
-    display: flex;
+    justify-content: space-between;
+    margin: auto;
     max-width: 930px;
 }
 
-header .menu li{
-    margin-left: 10px;
+header img{
+    width: 160px;
+    margin: 10px;
 }
 
-header .menu li a{
-    display: block;
-    padding: 10px;
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 1.8rem;
+    margin: 1rem;
     transition: all 250ms linear 0s;
+}
+
+header nav ul li a:hover{
+    background: rgba(230, 172, 0, 0.75);
+    color: #0c0c0c;
 }
 
 /* Home */
