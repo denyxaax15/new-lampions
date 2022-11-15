@@ -52,7 +52,7 @@ header nav ul li{
 header nav ul li a{
     color: #ffffff;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 20px;
     padding: 1.8rem;
     margin: 1rem;
     transition: all 250ms linear 0s;
@@ -61,6 +61,8 @@ header nav ul li a{
 header nav ul li a:hover{
     background: rgba(230, 172, 0, 0.75);
     color: #0c0c0c;
+    border-radius: 7px;
+    transform: scale(1.09);
 }
 
 /* Home */
