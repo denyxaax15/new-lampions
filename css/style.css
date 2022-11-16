@@ -12,6 +12,11 @@ html, body{
     text-rendering: optimizeLegibility;
 }
 
+img{
+    max-width: 100%;
+    display: block;
+}
+
 body{
     background-image: url(../img/imagem-fundo.png);
 }
@@ -62,17 +67,17 @@ header nav ul li a:hover{
     background: rgba(230, 172, 0, 0.75);
     color: #0c0c0c;
     border-radius: 7px;
-    transform: scale(1.09);
 }
 
 /* Home */
-.logo{
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
 
 .logo #skull{
     margin: 0 auto;
+}
+
+.logo{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /* ABOUT */
